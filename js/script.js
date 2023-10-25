@@ -19,7 +19,7 @@ var allCategoriesUrl =
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl =
-  "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
+  "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
@@ -345,7 +345,3 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
-
-global.$dc = dc;
-
-)(window);
